@@ -1,2 +1,3 @@
-@import url(./css/estilos.css);
-@import url(./SCSS/contacto);
+@import "base.scss";
+
+@import "./scss/contacto";
