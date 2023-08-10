@@ -1,0 +1,352 @@
+@media only screen and (min-width: 320px) and (max-width: 650px) {
+    .body-nosotros {
+      height: 95%;
+      font-family: "Noto Sans", sans-serif;
+      width: 100%;
+      background-color: rgba(255, 140, 0, 0.644);
+    }
+    .nosotros-form {
+      display: none;
+    }
+    .list-nav-nosotros li {
+      margin-top: 5%;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      gap: 30px;
+      align-self: center;
+      text-align: center;
+      font-size: 15px;
+      margin-right: 35px;
+      margin-bottom: 20px;
+    }
+    .contacto_form {
+      width: 360px;
+      height: auto;
+      margin: 80px auto;
+      border-radius: 10px;
+      padding-top: 30px;
+      padding-bottom: 20px;
+      background-color: #fbfbfb;
+      padding-left: 30px;
+    }
+  
+    .input-nosotros {
+      background-color: #fbfbfb;
+      width: 408px;
+      height: 40px;
+      border-radius: 5px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: darkorange;
+      margin-top: 10px;
+      padding-left: 10px;
+      margin-bottom: 20px;
+    }
+  
+    .texto_mensaje {
+      background-color: #fbfbfb;
+      width: 305px;
+      height: 150px;
+      border-radius: 5px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: darkorange;
+      margin-top: 20px;
+      padding-left: 0px;
+      margin-bottom: 60px;
+      padding-top: 5px;
+      padding-bottom: 40px;
+    }
+  
+    label {
+      display: block;
+      float: center;
+      padding: 10px;
+    }
+  
+    .boton-nos {
+      height: 25px;
+      padding-left: 5px;
+      padding-right: px;
+      padding-top: 5px;
+      margin-bottom: 20px;
+      margin-top: 50px;
+      text-transform: uppercase;
+      background-color: white;
+      border-color: darkorange;
+      border-style: solid;
+      border-radius: 5px;
+      width: 180px;
+      cursor: pointer;
+    }
+  
+    .obligatorio-nosotros {
+      color: darkorange;
+    }
+  
+    .aviso-nosotros {
+      font-size: 13px;
+      color: #0e0e0e;
+      margin-left: 340px;
+    }
+  
+    h1 {
+      font-size: 30px;
+      text-align: letf;
+      padding-bottom: 30px;
+      color: darkorange;
+      margin-left: 10px;
+    }
+  
+    .h2-nos {
+      font-size: 16px;
+      padding-bottom: 30px;
+  
+      color: #0e0e0e;
+    }
+  
+    .p-nos {
+      font-size: 14px;
+      color: #0e0e0e;
+    }
+  }
+  
+  @media only screen and (min-width: 651px) and (max-width: 1199px) {
+    .body-nosotros {
+      height: 95%;
+      font-family: "Noto Sans", sans-serif;
+      width: 100%;
+      background-color: rgba(255, 140, 0, 0.705);
+    }
+    .nosotros-form {
+      display: flex;
+      margin-left: 200px;
+      margin-top: -50px;
+      margin-top: 20px;
+    }
+    .list-nav-nosotros li {
+      margin-top: 10%;
+      display: flex;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      gap: 5px;
+      align-self: center;
+      text-align: center;
+      font-size: 15px;
+    }
+    .contacto_form {
+      width: 96%;
+      height: auto;
+      margin: 80px auto;
+      border-radius: 10px;
+      padding-top: 30px;
+      padding-bottom: 20px;
+      background-color: #fbfbfb;
+      padding-left: 30px;
+    }
+  
+    .input-nosotros {
+      background-color: #fbfbfb;
+      width: 408px;
+      height: 40px;
+      border-radius: 5px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: darkorange;
+      margin-top: 10px;
+      padding-left: 10px;
+      margin-bottom: 20px;
+      display: grid;
+      grid-template-columns: (1 1fr);
+      grid-template-rows: 2 2fr;
+    }
+  
+    .texto_mensaje {
+      background-color: #fbfbfb;
+      width: 305px;
+      height: 150px;
+      border-radius: 5px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: darkorange;
+      margin-top: 0px;
+      padding-left: 30px;
+      margin-bottom: 60px;
+      padding-top: 45px;
+      padding-bottom: 30px;
+    }
+  
+    label {
+      display: block;
+      float: center;
+      padding: 5px;
+    }
+  
+    .boton-nos {
+      height: 25px;
+      padding-left: px;
+      padding-right: px;
+      padding-top: 5px;
+      margin-bottom: 20px;
+      margin-top: 50px;
+      text-transform: uppercase;
+      background-color: white;
+      border-color: darkorange;
+      border-style: solid;
+      border-radius: 5px;
+      width: 100px;
+      cursor: pointer;
+    }
+  
+    .obligatorio-nosotros {
+      color: darkorange;
+    }
+  
+    .aviso-nosotros {
+      font-size: 13px;
+      color: #0e0e0e;
+      margin-left: 340px;
+    }
+  
+    h1 {
+      font-size: 50px;
+      text-align: letf;
+      padding-bottom: 30px;
+      color: darkorange;
+      margin-left: 10px;
+    }
+  
+    .h2-nos {
+      font-size: 25px;
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      color: #0e0e0e;
+    }
+  
+    .p-nos {
+      font-size: 16px;
+      color: #0e0e0e;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .body-nosotros {
+      height: 95%;
+      font-family: "Noto Sans", sans-serif;
+      width: 100%;
+      background-color: rgba(255, 140, 0, 0.705);
+    }
+    .nosotros-form {
+      display: flex;
+      margin-left: 900px;
+      margin-top: -50px;
+    }
+    .list-nav-nosotros li {
+      margin-top: 10%;
+      display: flex;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      gap: 5px;
+      align-self: center;
+      text-align: center;
+      font-size: 15px;
+    }
+    .contacto_form {
+      width: 96%;
+      height: auto;
+      margin: 80px auto;
+      border-radius: 10px;
+      padding-top: 30px;
+      padding-bottom: 20px;
+      background-color: #fbfbfb;
+      padding-left: 30px;
+    }
+  
+    .input-nosotros {
+      background-color: #fbfbfb;
+      width: 408px;
+      height: 40px;
+      border-radius: 5px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: darkorange;
+      margin-top: 10px;
+      padding-left: 10px;
+      margin-bottom: 20px;
+      display: grid;
+      grid-template-columns: (1 1fr);
+      grid-template-rows: 2 2fr;
+    }
+  
+    .texto_mensaje {
+      background-color: #fbfbfb;
+      width: 305px;
+      height: 150px;
+      border-radius: 5px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: darkorange;
+      margin-top: 0px;
+      padding-left: 30px;
+      margin-bottom: 60px;
+      padding-top: 45px;
+      padding-bottom: 30px;
+    }
+  
+    label {
+      display: block;
+      float: center;
+      padding: 10px;
+    }
+  
+    .boton-nos {
+      height: 25px;
+      padding-left: px;
+      padding-right: px;
+      padding-top: 5px;
+      margin-bottom: 20px;
+      margin-top: 50px;
+      text-transform: uppercase;
+      background-color: white;
+      border-color: darkorange;
+      border-style: solid;
+      border-radius: 5px;
+      width: 100px;
+      cursor: pointer;
+    }
+  
+    .obligatorio-nosotros {
+      color: darkorange;
+    }
+  
+    .aviso-nosotros {
+      font-size: 13px;
+      color: #0e0e0e;
+      margin-left: 340px;
+    }
+  
+    h1 {
+      font-size: 50px;
+      text-align: letf;
+      padding-bottom: 30px;
+      color: darkorange;
+      margin-left: 10px;
+    }
+  
+    .h2-nos {
+      font-size: 25px;
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      color: #0e0e0e;
+    }
+  
+    .p-nos {
+      font-size: 16px;
+      color: #0e0e0e;
+    }
+  }
