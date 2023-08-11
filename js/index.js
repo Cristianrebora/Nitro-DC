@@ -129,7 +129,7 @@ function agregarAlCarrito(productoAgregar) {
 
     guardarProductosLocalStorage();
 
-    console.log(productosCarrito);
+    // console.log(productosCarrito);
     mostrarProductosCarrito();
 }
 

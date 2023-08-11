@@ -797,3 +797,9 @@ body {
     padding: 5px;
     margin-top: 10px;
   }
+
+  /* **************footer********** */
+  .social img{
+    width: 45px;
+    margin-left: 40px;
+  }
