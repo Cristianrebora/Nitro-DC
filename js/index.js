@@ -42,7 +42,7 @@ function cargarEventos() {
 function eliminarProducto(e) {
     if (e.target.classList.contains('eliminar-producto')) {
         const productoId = parseInt(e.target.getAttribute('id'));
-        // console.log(productoId);
+        
 
         productosCarrito = productosCarrito.filter((producto) => producto.id !== productoId);
         guardarProductosLocalStorage();
@@ -54,18 +54,18 @@ function eliminarProducto(e) {
 
 function calcularTotal() {
     let total = productosCarrito.reduce((sumaTotal, producto) => sumaTotal + producto.subtotal, 0);
-    // console.log(total);
+   
 
     showTotal.innerHTML = `Total a Pagar: $ ${total}`;
 }
 
 function agregarProducto(e) {
     e.preventDefault();
-    // console.log(e.target);
+    
 
     if (e.target.classList.contains('agregar-carrito')) {
         const productoAgregado = e.target.parentElement;
-        // console.log(productoAgregado);
+        
 
         leerDatosProducto(productoAgregado);
     }
@@ -96,15 +96,15 @@ function leerDatosProducto(producto) {
     );
 
     datosProducto.obtenerTotal();
-    // console.log(datosProducto);
+    
 
     agregarAlCarrito(datosProducto);
 }
 
 function agregarAlCarrito(productoAgregar) {
-    // console.log(productosCarrito);
+    
     const existeEnCarrito = productosCarrito.some((producto) => producto.id === productoAgregar.id);
-    // console.log(existeEnCarrito);
+    
 
     if (existeEnCarrito) {
         // Creamos un nuevo array con los productos del carrito actualizados
@@ -129,7 +129,7 @@ function agregarAlCarrito(productoAgregar) {
 
     guardarProductosLocalStorage();
 
-    // console.log(productosCarrito);
+    
     mostrarProductosCarrito();
 }
 
@@ -223,12 +223,12 @@ document.addEventListener("DOMContentLoaded", function () {
     const signupSubmit = document.getElementById("signupSubmit");
   
     loginSubmit.addEventListener("click", function () {
-      // Aquí puedes agregar la lógica para el inicio de sesión
+      
       closePopups();
     });
   
     signupSubmit.addEventListener("click", function () {
-      // Aquí puedes agregar la lógica para crear una cuenta
+      
       closePopups();
     });
   });
