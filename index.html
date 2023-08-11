@@ -9,49 +9,34 @@
         <title>NITRO & DC</title>
     </head>
     <body>
-      <button class="btninicio" id="loginBtn">Iniciar sesión</button>
-      <button class="btncuenta" id="createAccountBtn">Crear cuenta</button>
   
-      <div id="loginPopup" class="popup">
-        <h2 onclick="openPopup()">Iniciar sesión</h2>
-        <form>
-          <label for="username">Nombre de usuario:</label>
-          <input type="text" id="username" required><br>
-  
-          <label for="password">Contraseña:</label>
-          <input type="password" id="password" required><br>
-  
-          <button type="submit">Iniciar sesión</button>
-          <span class="close" onclick="closePopup()"> &times;</span>
-        </form>
-      </div>
-  
-      <div id="createAccountPopup" class="popup">
-        <h2 onclick="openPopup()">Crear cuenta</h2>
-        <form>
-          <label for="username">Nuevo usuario:</label>
-          <input type="text" id="username" required><br>
-  
-          <label for="password">Nueva Contraseña:</label>
-          <input type="password" id="password" required><br>
-  
-          <button type="submit">Crear</button>
-        <span class="close" onclick="closePopup()">&times;</span>
-      </div> 
         <div class="topnav" id="myTopnav">
             <a href="./index.html" class="active">Home</a>
             <a href="./html/contacto.html
             ">Contacto</a>
             <a href="./html/nosotros.html">Nosotros</a>
-           <div class="carri"><a href="#cart" id="carrito"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></div> 
+            <div class="carri"><a href="#cart" id="carrito"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></div> 
             <a href="javascript:void(0);" id="icon-menu" class="icon">
                 <i class="fa fa-bars"></i>
-            </a>
-            <P class="p-index">NITRO & DC</P>
-        </div>
-
-        <h1 class="title">Nitro & DC</h1>
-
+            </a> <button class="loginbtn" id="loginButton">Iniciar Sesión</button>
+            <button class="signupbtn" id="signupButton">Crear Cuenta</button>
+            </div>
+  <div id="overlay" class="overlay"></div>
+  <div id="loginPopup" class="popup">
+    <span id="closeLogin" class="close">&times;</span>
+    <h2>Iniciar Sesión</h2>
+    <input type="text" id="loginUsername" placeholder="Usuario">
+    <input type="password" id="loginPassword" placeholder="Contraseña">
+    <button id="loginSubmit">Iniciar Sesión</button>
+  </div>
+  <div id="signupPopup" class="popup">
+    <span id="closeSignup" class="close">&times;</span>
+    <h2>Crear Cuenta</h2>
+    <input type="text" id="signupUsername" placeholder="Usuario">
+    <input type="password" id="signupPassword" placeholder="Contraseña">
+    <button id="signupSubmit">Crear Cuenta</button>
+  </div>
+  <h1 class="title">Nitro & DC</h1>
         <!-- The Modal -->
         <div id="ventanaModal" class="modal">
             <!-- Modal content -->

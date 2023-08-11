@@ -598,6 +598,10 @@ body {
       width: 100%;
       background-color: rgba(255, 140, 0, 0.705);
     }
+    .title{
+      color: #29d5db94;
+      font-size: 600;
+    }
     .nosotros-form {
       display: flex;
       margin-left: 900px;
@@ -692,8 +696,9 @@ body {
       font-size: 50px;
       text-align: letf;
       padding-bottom: 30px;
-      color: darkorange;
+      color: rgba(0, 195, 255, 0.603);
       margin-left: 10px;
+      text-decoration: none;
     }
   
     .h2-nos {
@@ -728,4 +733,67 @@ body {
   h1 a {
     text-decoration: none;
     color: rgba(18, 185, 236, 0.767);
+  }
+  /* ******************* popup¨******** */
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  .popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(21, 174, 185, 0.5);
+    padding: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+  }
+  
+  .popup input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .popup button {
+    display: block;
+    margin-top: 10px;
+  }
+  .loginbtn{
+    
+    background-color: #5cb5b8b9;
+    width: 100px;
+    border-radius: 10px;
+    padding: 5px;
+    
+    
+  }
+  .signupbtn{
+    background-color: #5cb5b8b9;
+    width: 100px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
   }
